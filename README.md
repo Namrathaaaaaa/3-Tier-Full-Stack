@@ -85,15 +85,11 @@ GitHub → Jenkins → SonarQube → Trivy → Docker Build → Docker Push → 
 *Pipeline resilience showing failed builds in Deploy to eks (997ms) and Verify deployment (138ms) stages with recovery mechanisms*
 
 ### **📊 SonarQube Code Quality Analysis Results**
-- **Project**: Campground
-- **Quality Gate Status**: ✅ **PASSED**
-- **Analysis Results**:
-  - **New Bugs**: 0 (Reliability: A)
-  - **New Vulnerabilities**: 0 (Security: A)
-  - **New Security Hotspots**: 0 (Security Review: A)  
-  - **New Code Smells**: 0 (Maintainability: A)
-  - **Coverage**: 0.0% (No new lines to cover)
-  - **Duplications**: 0.0% on 6 new lines
+![SonarQube Project Overview](./images/Screenshot%202025-07-25%20at%201.33.56%20PM.png)
+*Campground project analysis showing 0 New Bugs, 0 New Vulnerabilities, 0 New Security Hotspots, and quality trends over time*
+
+![SonarQube Quality Gate Passed](./images/Screenshot%202025-07-25%20at%201.34.23%20PM.png)
+*Quality Gate Status: PASSED - All conditions met with 0 New Bugs (Reliability A), 0 New Vulnerabilities (Security A), 0 New Security Hotspots (Security Review A), and 0 New Code Smells (Maintainability A)*
 
 ## �️ Security & Quality
 
