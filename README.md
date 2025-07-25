@@ -51,6 +51,43 @@ GitHub → Jenkins → SonarQube → Trivy → Docker Build → Docker Push → 
 - **Code Smells**: 0 (Maintainability: A)
 - **Coverage**: 0.0% (No new lines to cover)
 
+## 📸 Project Results Screenshots
+
+### **🏠 YelpCamp Application - Live Demo**
+![YelpCamp Home Page](./images/home.jpg)
+*Production-ready YelpCamp application with responsive design and interactive features*
+
+![Campgrounds Listing with Map](./images/campgrounds.jpg)
+*Interactive cluster map showing campground locations with Mapbox integration*
+
+![User Registration](./images/register.jpg)
+*Secure user registration system with form validation*
+
+### **🐳 Docker Hub Repository**
+![Docker Hub Repository](https://github.com/user-attachments/assets/docker-hub-screenshot)
+*Docker images successfully pushed to namratha3/campa repository with automated builds*
+
+### **🔧 Jenkins CI/CD Pipeline - Development Environment**
+![Jenkins Dev Pipeline](https://github.com/user-attachments/assets/jenkins-dev-pipeline)
+*Development environment pipeline showing 8 successful builds with detailed stage timings and performance metrics*
+
+### **🚀 Jenkins CI/CD Pipeline - Production Environment**
+![Jenkins Prod Pipeline Success](https://github.com/user-attachments/assets/jenkins-prod-pipeline-success)
+*Production environment pipeline with 100% success rate and optimized deployment times*
+
+![Jenkins Prod Pipeline Stages](https://github.com/user-attachments/assets/jenkins-prod-stages)
+*Detailed view of production pipeline stages with individual timing metrics*
+
+![Jenkins Prod Pipeline Failed Build](https://github.com/user-attachments/assets/jenkins-prod-failed)
+*Pipeline resilience demonstration showing error handling and recovery mechanisms*
+
+### **📊 SonarQube Code Quality Analysis**
+![SonarQube Overview](https://github.com/user-attachments/assets/sonarqube-overview)
+*SonarQube project overview showing code quality trends and activity timeline*
+
+![SonarQube Quality Gate](https://github.com/user-attachments/assets/sonarqube-quality-gate)
+*Quality Gate results showing PASSED status with A-grade ratings across all security and quality metrics*
+
 ## �️ Security & Quality
 
 - **Trivy Scans**: ✅ No critical vulnerabilities
