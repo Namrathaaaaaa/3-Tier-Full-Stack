@@ -63,30 +63,35 @@ GitHub → Jenkins → SonarQube → Trivy → Docker Build → Docker Push → 
 ![User Registration](./images/register.jpg)
 *Secure user registration system with form validation*
 
-### **🐳 Docker Hub Repository**
-![Docker Hub Repository](https://github.com/user-attachments/assets/f1f4c2a1-6b2c-4c5d-8e9f-1a2b3c4d5e6f)
-*Docker images successfully pushed to namratha3/campa repository - Latest push 6 minutes ago, Public visibility*
+### **🐳 Docker Hub Repository Results**
+- **Repository**: `namratha3/campa` 
+- **Latest Push**: 6 minutes ago
+- **Visibility**: Public
+- **Status**: Active
+- **Images**: Successfully pushed container images with automated builds
 
-### **🔧 Jenkins CI/CD Pipeline - Development Environment (Dev-env-3tier)**
-![Jenkins Dev Pipeline](https://github.com/user-attachments/assets/a1b2c3d4-5e6f-7g8h-9i0j-k1l2m3n4o5p6)
-*Development environment showing 8 builds with 87.5% success rate. Pipeline stages from Tool Install (172ms) to Verify Deployment (618ms)*
+### **� Jenkins CI/CD Pipeline Results - Development Environment (Dev-env-3tier)**
+- **Total Builds**: 8 builds completed
+- **Success Rate**: 87.5% (7 successful, 1 failed)
+- **Pipeline Stages**: Tool Install (172ms) → Git Checkout (1s) → Dependencies (13s) → Unit Tests (621ms) → Trivy FS Scan (2s) → SonarQube (24s) → Docker Build (12s) → Trivy Image Scan (22s) → Docker Push (20s) → EKS Deploy (40s) → Verify Deployment (618ms)
 
-### **🚀 Jenkins CI/CD Pipeline - Production Environment (Prod-env-3tier)**
-![Jenkins Prod Pipeline Success](https://github.com/user-attachments/assets/b2c3d4e5-6f7g-8h9i-0j1k-l2m3n4o5p6q7)
-*Production environment with 100% success rate (3/3 builds). Total runtime ~2min 33s with all stages completing successfully*
+### **🚀 Jenkins CI/CD Pipeline Results - Production Environment (Prod-env-3tier)**
+- **Total Builds**: 3 builds completed  
+- **Success Rate**: 100% (3/3 successful)
+- **Average Runtime**: ~2 minutes 33 seconds
+- **All Stages Completed Successfully**: From Declarative Tool Install through Verify Deployment
+- **Pipeline Resilience**: Demonstrated error handling and recovery mechanisms for failed deployments
 
-![Jenkins Prod Pipeline Stage View](https://github.com/user-attachments/assets/c3d4e5f6-7g8h-9i0j-1k2l-m3n4o5p6q7r8)
-*Detailed stage view showing average times: Declarative Tool Install (172ms), Git Checkout (1s), Installing Dependencies (13s), Units test (621ms), Trivy fs scanning (2s), SonarQube (24s), Docker build & tag (12s), Trivy Image scan (22s), Docker push Image (20s)*
-
-![Jenkins Prod Pipeline with Failures](https://github.com/user-attachments/assets/d4e5f6g7-8h9i-0j1k-2l3m-n4o5p6q7r8s9)
-*Pipeline resilience showing failed builds in Deploy to eks (997ms) and Verify deployment (138ms) stages with recovery mechanisms*
-
-### **📊 SonarQube Code Quality Analysis**
-![SonarQube Project Overview](https://github.com/user-attachments/assets/e5f6g7h8-9i0j-1k2l-3m4n-o5p6q7r8s9t0)
-*Campground project analysis showing 0 New Bugs, 0 New Vulnerabilities, 0 New Security Hotspots, and quality trends over time*
-
-![SonarQube Quality Gate Passed](https://github.com/user-attachments/assets/f6g7h8i9-0j1k-2l3m-4n5o-p6q7r8s9t0u1)
-*Quality Gate Status: PASSED - All conditions met with 0 New Bugs (Reliability A), 0 New Vulnerabilities (Security A), 0 New Security Hotspots (Security Review A), and 0 New Code Smells (Maintainability A)*
+### **📊 SonarQube Code Quality Analysis Results**
+- **Project**: Campground
+- **Quality Gate Status**: ✅ **PASSED**
+- **Analysis Results**:
+  - **New Bugs**: 0 (Reliability: A)
+  - **New Vulnerabilities**: 0 (Security: A)
+  - **New Security Hotspots**: 0 (Security Review: A)  
+  - **New Code Smells**: 0 (Maintainability: A)
+  - **Coverage**: 0.0% (No new lines to cover)
+  - **Duplications**: 0.0% on 6 new lines
 
 ## �️ Security & Quality
 
