@@ -1,8 +1,8 @@
 # 3-Tier Ultimate DevOps CI/CD Pipeline Project
 
-![YelpCamp Applicati### **🔧 Jenkins CI/CD Pipeline Results - Development Environment (Dev-env-3tier)**
+![YelpCamp Application### **🔧 Jenkins CI/CD Pipeline Results - Development Environment (Dev-env-3tier)**
 ![Jenkins Dev Pipeline](./images/Screenshot%202025-07-25%20at%201.31.50%20PM.png)
-_Development environment showing 8 builds with 87.5% success rate. Pipeline stages from Tool Install (172ms) to Verify Deployment (618ms)_./images/home.jpg)
+*Development environment showing 8 builds with 87.5% success rate. Pipeline stages from Tool Install (172ms) to Verify Deployment (618ms)*mages/home.jpg)
 
 ## 🚀 Project Overview
 
@@ -58,13 +58,13 @@ GitHub → Jenkins → SonarQube → Trivy → Docker Build → Docker Push → 
 ### **🏠 YelpCamp Application - Live Demo**
 
 ![YelpCamp Home Page](./images/home.jpg)
-_Production-ready YelpCamp application with responsive design and interactive features_
+*Production-ready YelpCamp application with responsive design and interactive features*
 
 ![Campgrounds Listing with Map](./images/campgrounds.jpg)
-_Interactive cluster map showing campground locations with Mapbox integration_
+*Interactive cluster map showing campground locations with Mapbox integration*
 
 ![User Registration](./images/register.jpg)
-_Secure user registration system with form validation_
+*Secure user registration system with form validation*
 
 ### **🐳 Docker Hub Repository Results**
 
