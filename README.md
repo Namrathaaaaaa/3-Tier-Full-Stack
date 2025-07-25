@@ -1,6 +1,14 @@
 # 3-Tier Ultimate DevOps CI/CD Pipeline Project
 
-![YelpCamp Application### **🔧 Jenkins CI/CD Pipeline Results - Development Environment (Dev-env-3tier)**
+![YelpCamp Application### **🔧 Jenkins CI### **📊 SonarQube Code Quality Analysis Results**
+
+![SonarQube Project Overview](./images/Screenshot%202025-07-25%20at%201.33.56%20PM.png)
+*Campground project analysis showing 0 New Bugs, 0 New Vulnerabilities, 0 New Security Hotspots, and quality trends over time*
+
+![SonarQube Quality Gate Passed](./images/Screenshot%202025-07-25%20at%201.34.23%20PM.png)
+*Quality Gate Status: PASSED - All conditions met with 0 New Bugs (Reliability A), 0 New Vulnerabilities (Security A), 0 New Security Hotspots (Security Review A), and 0 New Code Smells (Maintainability A)*
+
+## 🛡️ Security & Qualityine Results - Development Environment (Dev-env-3tier)**
 ![Jenkins Dev Pipeline](./images/Screenshot%202025-07-25%20at%201.31.50%20PM.png)
 *Development environment showing 8 builds with 87.5% success rate. Pipeline stages from Tool Install (172ms) to Verify Deployment (618ms)*mages/home.jpg)
 
@@ -69,7 +77,7 @@ GitHub → Jenkins → SonarQube → Trivy → Docker Build → Docker Push → 
 ### **🐳 Docker Hub Repository Results**
 
 ![Docker Hub Repository](./images/Screenshot%202025-07-25%20at%201.30.09%20PM.png)
-_Docker images successfully pushed to namratha3/campa repository - Latest push 6 minutes ago, Public visibility_
+*Docker images successfully pushed to namratha3/campa repository - Latest push 6 minutes ago, Public visibility*
 
 ### **� Jenkins CI/CD Pipeline Results - Development Environment (Dev-env-3tier)**
 
@@ -80,13 +88,13 @@ _Docker images successfully pushed to namratha3/campa repository - Latest push 6
 ### **🚀 Jenkins CI/CD Pipeline Results - Production Environment (Prod-env-3tier)**
 
 ![Jenkins Prod Pipeline Success](./images/Screenshot%202025-07-25%20at%201.32.15%20PM.png)
-_Production environment with 100% success rate (3/3 builds). Total runtime ~2min 33s with all stages completing successfully_
+*Production environment with 100% success rate (3/3 builds). Total runtime ~2min 33s with all stages completing successfully*
 
 ![Jenkins Prod Pipeline Stage View](./images/Screenshot%202025-07-25%20at%201.32.53%20PM.png)
-_Detailed stage view showing average times: Declarative Tool Install (172ms), Git Checkout (1s), Installing Dependencies (13s), Units test (621ms), Trivy fs scanning (2s), SonarQube (24s), Docker build & tag (12s), Trivy Image scan (22s), Docker push Image (20s)_
+*Detailed stage view showing average times: Declarative Tool Install (172ms), Git Checkout (1s), Installing Dependencies (13s), Units test (621ms), Trivy fs scanning (2s), SonarQube (24s), Docker build & tag (12s), Trivy Image scan (22s), Docker push Image (20s)*
 
 ![Jenkins Prod Pipeline with Failures](./images/Screenshot%202025-07-25%20at%201.33.14%20PM.png)
-_Pipeline resilience showing failed builds in Deploy to eks (997ms) and Verify deployment (138ms) stages with recovery mechanisms_
+*Pipeline resilience showing failed builds in Deploy to eks (997ms) and Verify deployment (138ms) stages with recovery mechanisms*
 
 ### **📊 SonarQube Code Quality Analysis Results**
 
