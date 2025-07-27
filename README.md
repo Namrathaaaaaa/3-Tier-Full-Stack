@@ -88,10 +88,10 @@ GitHub → Jenkins → SonarQube → Trivy → Docker Build → Docker Push → 
 ### **📊 SonarQube Code Quality Analysis Results**
 
 ![SonarQube Project Overview](https://github.com/user-attachments/assets/8c514fdd-8c33-405e-a1ea-1a7508dfa133)
-_Campground project analysis showing 0 New Bugs, 0 New Vulnerabilities, 0 New Security Hotspots, and quality trends over time_
+*Campground project analysis showing 0 New Bugs, 0 New Vulnerabilities, 0 New Security Hotspots, and quality trends over time*
 
 ![SonarQube Quality Gate Passed](https://github.com/user-attachments/assets/ce214aac-ddb6-4f21-b6fc-962a1a2fa84a)
-_Quality Gate Status: PASSED - All conditions met with 0 New Bugs (Reliability A), 0 New Vulnerabilities (Security A), 0 New Security Hotspots (Security Review A), and 0 New Code Smells (Maintainability A)_
+*Quality Gate Status: PASSED - All conditions met with 0 New Bugs (Reliability A), 0 New Vulnerabilities (Security A), 0 New Security Hotspots (Security Review A), and 0 New Code Smells (Maintainability A)*
 
 ## 🛡️ Security & Quality
 
@@ -135,8 +135,6 @@ SECRET=[Your Chosen Secret Key]
 - ✅ Image uploads via Cloudinary
 - ✅ Responsive Bootstrap UI
 
-![Campgrounds](./images/campgrounds.jpg) ![Registration](./images/register.jpg)
-
 ## 🏆 Key Achievements
 
 - **100% Automated Deployment** to EKS
@@ -152,4 +150,4 @@ GitHub: [@Namrathaaaaaa](https://github.com/Namrathaaaaaa) | Docker Hub: [namrat
 
 ---
 
-_Enterprise-level DevOps CI/CD pipeline demonstrating modern security and quality practices._
+*Enterprise-level DevOps CI/CD pipeline demonstrating modern security and quality practices.*
