@@ -56,34 +56,34 @@ GitHub → Jenkins → SonarQube → Trivy → Docker Build → Docker Push → 
 ### **🏠 YelpCamp Application - Live Demo**
 
 ![YelpCamp Home Page](./images/home.jpg)
-_Production-ready YelpCamp application with responsive design and interactive features_
+*Production-ready YelpCamp application with responsive design and interactive features*
 
 ![Campgrounds Listing with Map](./images/campgrounds.jpg)
-_Interactive cluster map showing campground locations with Mapbox integration_
+*Interactive cluster map showing campground locations with Mapbox integration*
 
 ![User Registration](./images/register.jpg)
-_Secure user registration system with form validation_
+*Secure user registration system with form validation*
 
 ### **🐳 Docker Hub Repository Results**
 
 ![Docker Hub Repository](https://github.com/user-attachments/assets/c491722e-50c3-4d64-af30-9d6446909e0d)
-_Docker images successfully pushed to namratha3/campa repository - Latest push 6 minutes ago, Public visibility_
+*Docker images successfully pushed to namratha3/campa repository - Latest push 6 minutes ago, Public visibility*
 
 ### **🔧 Jenkins CI/CD Pipeline Results - Development Environment (Dev-env-3tier)**
 
 ![Jenkins Dev Pipeline](https://github.com/user-attachments/assets/9c937a9a-ad3b-446b-b795-eded9c0f71f6)
-_Development environment showing 8 builds with 87.5% success rate. Pipeline stages from Tool Install (172ms) to Verify Deployment (618ms)_
+*Development environment showing 8 builds with 87.5% success rate. Pipeline stages from Tool Install (172ms) to Verify Deployment (618ms)*
 
 ### **🚀 Jenkins CI/CD Pipeline Results - Production Environment (Prod-env-3tier)**
 
 ![Jenkins Prod Pipeline Success](https://github.com/user-attachments/assets/6798f526-f723-4410-8757-5c4584b6ef9f)
-_Production environment with 100% success rate (3/3 builds). Total runtime ~2min 33s with all stages completing successfully_
+*Production environment with 100% success rate (3/3 builds). Total runtime ~2min 33s with all stages completing successfully*
 
 ![Jenkins Prod Pipeline Stage View](https://github.com/user-attachments/assets/39c90909-5c9d-44b5-9a34-ba8e656ec809)
-_Detailed stage view showing average times: Declarative Tool Install (172ms), Git Checkout (1s), Installing Dependencies (13s), Units test (621ms), Trivy fs scanning (2s), SonarQube (24s), Docker build & tag (12s), Trivy Image scan (22s), Docker push Image (20s)_
+*Detailed stage view showing average times: Declarative Tool Install (172ms), Git Checkout (1s), Installing Dependencies (13s), Units test (621ms), Trivy fs scanning (2s), SonarQube (24s), Docker build & tag (12s), Trivy Image scan (22s), Docker push Image (20s)*
 
 ![Jenkins Prod Pipeline with Failures](https://github.com/user-attachments/assets/d854abf6-84c1-496a-bbd8-4f348b9e5a3f)
-_Pipeline resilience showing failed builds in Deploy to eks (997ms) and Verify deployment (138ms) stages with recovery mechanisms_
+*Pipeline resilience showing failed builds in Deploy to eks (997ms) and Verify deployment (138ms) stages with recovery mechanisms*
 
 ### **📊 SonarQube Code Quality Analysis Results**
 
