@@ -4,7 +4,7 @@
 
 ## 🚀 Project Overview
 
-Complete **3-Tier DevOps CI/CD Pipeline** for a YelpCamp web application featuring automated testing, security scanning, code quality analysis, containerization, and Kubernetes deployment on AWS EKS.\
+Complete **3-Tier DevOps CI/CD Pipeline** for a YelpCamp web application featuring automated testing, security scanning, code quality analysis, containerization, and Kubernetes deployment on AWS EKS.
 
 ## 🛠️ Technology Stack
 
